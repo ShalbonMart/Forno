@@ -1,26 +1,13 @@
-# FORNO — Scroll-driven Pizza Restaurant Website
+# FORNO — Scroll-to-Make-Pizza Hero
 
-Premium restaurant concept built with React, Vite, GSAP ScrollTrigger, Three.js particles, and Lucide icons.
+The **first visible section** is a 650vh scroll-driven, sticky pizza assembly experience. Scrolling assembles dough, sauce, cheese, toppings, basil and a finished baked pizza. GSAP ScrollTrigger controls the progress, and Three.js renders ambient particles. The menu and restaurant content follow.
 
-## Run locally
+## Deploy
 
-```bash
-npm install
-npm run dev
-```
+Upload the **contents of this directory** to the GitHub repository root (not the parent directory). Import the repository into Vercel using Vite preset, `npm run build`, output `dist`.
 
-## Deploy to Vercel
+## Local run
 
-1. Push all files to a GitHub repository (keep `src/` folder intact).
-2. Import the repository in Vercel.
-3. Framework preset: **Vite**.
-4. Build command: `npm run build`.
-5. Output directory: `dist`.
+`npm install` then `npm run dev`.
 
-## Customization
-
-- Restaurant name is currently the demo brand **FORNO**. Replace with your real brand.
-- Menu items and prices are placeholders; update `items` in `src/main.jsx`.
-- Contact CTA uses `hello@example.com`; replace with your own restaurant email.
-- The pizza is drawn using CSS layers and GSAP-driven ScrollTrigger progress; Three.js powers the ambient floating particles.
-- No backend or checkout is included.
+Sample menu, prices, and contact email are placeholders.
